@@ -6,11 +6,8 @@ body, html {
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
-<<<<<<< HEAD
   background-color: #f4f4f4;
-=======
   background-color: #fff;
->>>>>>> f511b76bf671016aedc4f6b91d4b0c01bdecc13d
 }
 
 .container {
@@ -83,76 +80,6 @@ nav a:hover::before {
 
 /* HEADER DONE */
 
-.wrapper {
-    min-height: 100%;
-    position: relative;
-}
-
-footer {
-    width: 100%;
-    background-color: #222;
-    padding: 20px 0;
-    text-align: center;
-    position: absolute;
-}
-
-/* BOXES */
-
-
-.event1, .event2, .event3, .event4 {
-  position: relative;
-  opacity: 0.70;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.event1 {
-  background-image: url('../img/activities1.jpeg');
-  min-height: 100%;
-}
-
-.event2 {
-  background-image: url(../img/activities2.jpeg);
-  min-height: 100%;
-}
-
-.event3 {
-    background-image: url(../img/activities3.jpg);
-    min-height: 100%;
-}
-
-.section {
-  text-align: center;
-  padding: 50px 80px;
-}
-
-.section-light {
-  background-color: #f4f4f4;
-  color: #666;
-}
-
-.ptext {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-  font-size: 27px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-}
-
-.ptext .border {
-  background-color: #111;
-  color: #fff;
-  padding: 20px;
-}
-
-.ptext .border.trans {
-  background-color: transparent;
-}
 
 @media(max-width: 568px) {
   .pimg1 .pimg2 .pimg3 {
