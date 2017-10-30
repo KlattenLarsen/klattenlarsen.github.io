@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Booking</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/location.css">
+</head>
+<body>
+<header>
+    <div class="container">
+       <h3 class="h3">The Grizzly Tundra Hotel and Resort</h3>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Our rooms</a></li>
+                <li><a href="activities.html">Accommodation</a></li>
+                <li><a href="practicali.html">Practical information</a></li>
+                <li><a href="booking.html">Booking</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="left">
+  <h2>Location</h2>
+  
+  <h3>How to get here</h3><br>
+  
+  <p>You start by taking a flight to Anchorage airport from there you take a plane that lands on the lake right by our hotel and in the winter where the lake is frozen you can chose a helicopter or a snow vehicle.</p>
+  
+  
+  
+   <div id="googleMap" style="width:96%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(62.502205, -150.773826),
+    zoom:8,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFEGyFvDA4XhCI_30YUqUan-rpuU8TfqY&callback=myMap"></script>
+</div>
+
+<div class="right">
+    
+</div>
+
+
+
+</body>
+</html>
