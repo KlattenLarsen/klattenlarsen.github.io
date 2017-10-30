@@ -80,6 +80,10 @@ nav a:hover::before {
 
 /* HEADER DONE */
 
+h2 {
+  text-align: center;
+}
+
 
 @media(max-width: 568px) {
   .pimg1 .pimg2 .pimg3 {
